@@ -15,9 +15,21 @@ namespace challenge_1
             var fileName = Console.ReadLine();
             var lines = File.ReadLines(fileName);
             var freq = 0;
-            foreach (var line in lines)
+            var freqStore = new List<int>();
+            freqStore.Add(freq);
+            var notFound = true;
+            while (notFound)
             {
-                freq += int.Parse(line);
+                foreach (var line in lines)
+                {
+                    freq += int.Parse(line);
+                    if (freqStore.Contains(freq))
+                    {
+                        notFound = false;
+                        break;
+                    }
+                    freqStore.Add(freq);
+                }
             }
             Console.WriteLine(freq);
         }
