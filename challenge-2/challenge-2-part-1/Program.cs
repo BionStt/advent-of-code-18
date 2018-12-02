@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace challenge_2
+namespace challenge_2_part_1
 {
     class Program
     {
