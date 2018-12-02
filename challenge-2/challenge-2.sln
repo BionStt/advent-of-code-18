@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "challenge-2-part-1", "challenge-2\challenge-2-part-1.csproj", "{DE6DDC4B-8E8A-41E0-9D90-3473DA205854}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "challenge-2-part-1", "challenge-2-part-1\challenge-2-part-1.csproj", "{DE6DDC4B-8E8A-41E0-9D90-3473DA205854}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "challenge-2-part-2", "challenge-2-part-2\challenge-2-part-2.csproj", "{C878279A-602A-4CAD-90AF-516FBB611545}"
 EndProject
